@@ -1,4 +1,4 @@
-baseURL = 'https://amit-singh-7.github.io/'
+baseURL = 'https://shipsolid.github.io/'
 languageCode = 'en-us'
 title = "Amit's Work & Blog"
 theme = 'hugo-profile'
