@@ -118,7 +118,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Amit Singh" # Brand name for the brand | default is the title variable
+    brandName: "Amit's Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -137,10 +137,32 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Amit."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    title: "Amit Singh."
+    subtitle: "I build resilient and observable systems"
+    content: >
+      I'm a Site Reliability and Observability Engineer with a passion for crafting scalable, data-driven platforms. I specialize in cloud-native tooling, automation, and making infrastructure work smarter and more transparently.
+    # intro: |
+    #   Hi, I’m Amit Singh – a Site Reliability & Observability Engineer with over 14 years of experience spanning .NET development, performance engineering, and platform reliability.
+    # title: "Amit Singh."
+    # subtitle: "Engineer | Optimizer | Builder"
+    # content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    # intro: "Hi, I'm"
+    # title: "Amit Singh."
+    # subtitle: "a Site Reliability & Observability Engineer with over 14 years of experience spanning .NET development, performance engineering, and platform reliability."
+    # content: |
+    #   Currently driving greenfield observability initiatives at McCain, I specialize in designing scalable telemetry systems using **Grafana Cloud**, **Azure**, and **OpenTelemetry**. I’m passionate about building resilient systems, simplifying incident response, and enabling engineering teams to make data-informed decisions.
+      
+    #   🔍 On this site, you’ll find:
+    #     - 📚 Blog posts on SRE best practices, cloud monitoring, and automation
+    #     - 💼 Projects I’ve built or contributed to
+    #     - 🎯 My journey, values, and career goals
+      
+    #   When I’m not optimizing platforms, I’m preparing for MAANG interviews, exploring finance, and striving to architect the next evolution of cloud-native infrastructure.
+
+    #   Let’s build something observable, scalable, and meaningful.
+    # image: "/images/hero.svg"
+    image: "/images/me.jpg"
+    # image: "/images/im.jfif"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -153,97 +175,182 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/amit-singh-7
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/amitsingh007s/
+        # - icon: fab fa-x-twitter
+        #   url: https://example.com
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
+  # about:
+  #   enable: true
+  #   title: "About Me"
+  #   image: "/images/me.png"
+  #   content: |-
+  #     I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+
+  #     I am currently working on a project that will be used to help people find the best way to get around the city.
+  #   skills:
+  #     enable: true
+  #     title: "Here are a few technologies I've been working with recently:"
+  #     items:
+  #       - "HTML"
+  #       - "CSS"
+  #       - "JavaScript"
+  #       - "React"
+  #       - "Node"
+  #       - "Express"
+
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    # image: "/images/me.png"
+    image: "/images/im.jfif"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I'm a Site Reliability and Observability Engineer with 14+ years of experience spanning full-stack development, performance engineering, and platform reliability.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Currently, I'm driving greenfield observability adoption at [McCain](https://mccain.com), where I architect scalable telemetry pipelines using Grafana Cloud, OpenTelemetry, and Azure-native tools.
+
+      My passion lies in building resilient systems, enabling proactive incident response, and simplifying the way engineering teams interact with production.
+
+      When I'm not optimizing platforms, I'm preparing for MAANG interviews and exploring financial literacy, cloud architecture, and technical storytelling.
+
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Azure (AKS, Functions, Cosmos DB)"
+        - "OpenTelemetry"
+        - "Grafana Cloud"
+        - "Prometheus & Loki"
+        - ".NET Core"
+        - "Terraform & GitHub Actions"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      # - job: "Senior Software Developer"
+      #   company: "Facebook"
+      #   companyUrl: "https://example.com"
+      #   date: "Jan 2022 - present"
+      #   featuredLink:
+      #     enable: true
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+      - job: "Observability Engineer"
+        company: "McCain Foods"
+        companyUrl: "https://www.mccain.com"
+        date: "Dec 2024 – Present"
         featuredLink:
           enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          name: "View Grafana Cloud POC"
+          url: "https://grafana.com"
+        content: >
+          - Currently leading observability initiatives at McCain, where I’m building a scalable telemetry platform from the ground up using Grafana Cloud, OpenTelemetry, and Azure-native services.
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+          - My responsibilities include architecting and implementing full-stack observability for cloud and on-prem environments, improving incident detection, and enabling engineering teams with actionable insights across metrics, logs, and traces.
+
+      - job: "Expert Site Reliability Engineer"
+        company: "Finastra"
+        companyUrl: "https://www.finastra.com"
+        date: "Mar 2021 – Dec 2024"
         featuredLink:
           enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          name: "Grafana Cloud Monitoring Pipeline"
+          url: "https://grafana.com"
+        content: >
+          - Spearheaded the transformation of Grafana Cloud observability management by automating infrastructure provisioning through Terraform and implementing label-based access control for secure, role-driven Grafana usage.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Defined and led the organizational strategy for adopting Grafana Cloud services while supporting 30+ product teams across Kubernetes, Terraform, ARO, Helm, Flux CD, and GitOps pipelines. Addressed a wide range of operational issues, including CI/CD failures, manifest updates, and observability onboarding.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
+          - Designed and implemented a self-service Azure DevOps pipeline for unified observability integration, using Ansible for configuration. The solution provided infrastructure, application, and log monitoring, as well as distributed tracing via OpenTelemetry.
+
+          - Achieved a 100x reduction in turnaround time for onboarding observability across environments by automating Grafana Agent deployment and Prometheus/Loki/Tempo configuration management—adopted by over 150 machines across 30 environments within 3 months.
+
+          - Built a custom toggle tool to enable or disable OpenTelemetry tracing for Java-based applications, significantly accelerating rollout and configuration cycles across environments.
+
+      - job: "Senior Performance Engineer"
+        company: "Wolters Kluwer"
+        companyUrl: "https://www.wolterskluwer.com"
+        date: "Feb 2018 – Mar 2021"
+        featuredLink:
           enable: false
+        content: >
+          - Led performance engineering initiatives across multiple enterprise applications, ensuring high system reliability and scalability through data-driven performance analysis and testing.
+
+          - Actively engaged throughout the project lifecycle, collaborating with stakeholders to validate performance expectations and ensure functional stability post-deployment. Developed and executed end-to-end performance test plans, including test case design, scripting, and reporting across three global regions.
+
+          - Automated the collection and monitoring of server logs and performance metrics using the ELK stack, streamlining observability for production-like environments. Delivered reusable, optimized performance testing frameworks—achieving up to 90% model alignment using real-world workload simulations.
+
+          - Conducted capacity planning by analyzing production trends and identifying mismatches between infrastructure and application behavior, recommending architectural and code-level improvements.
+
+          - Interpreted large volumes of performance data, diagnosed bottlenecks, and presented root cause analyses to business and engineering stakeholders with actionable mitigation strategies.
+
+      - job: "Infrastructure Technology Specialist"
+        company: "Cognizant Technology Solutions"
+        companyUrl: "https://www.cognizant.com"
+        date: "May 2016 – Feb 2018"
+        featuredLink:
+          enable: false
+        content: >
+          - Specialized in end-to-end performance engineering and infrastructure optimization for enterprise-grade applications across multiple environments.
+
+          - Performed in-depth JVM and garbage collection (GC) analysis to optimize memory usage and successfully scale down application servers in performance environments, improving infrastructure efficiency and cost-effectiveness.
+
+          - Conducted thorough application diagnostics using tools such as Splunk, Grafana, HP JMeter, Precise i3, and JDigger to analyze thread dumps and performance metrics. Built interactive Splunk dashboards for real-time test monitoring and insights.
+
+          - Developed custom automation tools to streamline performance testing processes:
+            - Shell utilities for rapid and controlled server restarts
+            - A .NET (C#) utility to trace transactions across business layers
+
+          - Managed full-spectrum performance testing activities—from requirements gathering, estimation, and planning to script development, workload modeling, test execution, and monitoring. Delivered detailed performance assessments and tuning recommendations across the tech stack.
+
+      - job: "Senior Project Engineer"
+        company: "Wipro Technologies"
+        companyUrl: "https://www.wipro.com"
+        date: "Dec 2015 – May 2016"
+        featuredLink:
+          enable: false
+        content: >
+          - Played a dual role in Performance Monitoring and Engineering, driving proactive performance analysis, JVM stability, and system tuning for large-scale enterprise applications.
+
+          - As part of the Performance Monitoring team:
+            - Led and monitored Load and Soak tests using tools such as CA Wily Introscope, BMC Performance Assurance, BMC Perceiver, and Oracle SQL Developer for ESB reporting.
+            - Developed detailed monitoring reports and conducted client-facing presentations via email and live sessions.
+            - Investigated portal JVM crashes and bottlenecks using tools like IBM Heap Analyzer, TMDA, Verbose GC Analyzer, Eclipse MAT, PMAT, IBM Support Assistant, and Log Analyzer.
+            - Triage and escalated performance defects, ensuring timely resolution in coordination with development teams.
+
+          - As part of the Performance Engineering team:
+            - Profiled high-latency transactions at the client, server, and JVM layers using tools like Dynatrace Ajax Edition, HTTP Watch, jProfiler, CA Wily, browser dev tools, and SonarQube.
+            - Led defect triage meetings, provided root cause insights, and coordinated performance fixes to reduce turnaround time.
+            - Delivered actionable performance tuning recommendations to improve responsiveness and system throughput across key services.
+
+      - job: "Project Engineer"
+        company: "Wipro Technologies"
+        companyUrl: "https://www.wipro.com"
+        date: "Sep 2011 – Dec 2015"
         featuredLink:
           enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          name: "Global Performance Reporting Tool Overview"
+          url: "https://www.wipro.com"
+        content: >
+          - Designed and developed a Global Performance Test Reporting Tool to standardize report generation and accelerate performance result analysis across teams—reducing manual reporting effort by 31 hours per test and generating estimated annual savings of $1.2 million.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - The tool was implemented as a thin-client web application using ASP.NET (frontend) and Microsoft SQL Server 2014 (backend), accessible through a browser-based interface. Users could upload HTML reports (in ZIP format), from which the tool would automatically extract, parse, and insert performance data into a structured database.
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Key achievements include:
+            - Reduced reporting effort from 8000 to 2000 hours per year.
+            - Automated report generation, enabling main reports in 30 seconds and detailed reports in under 2 minutes.
+            - Created a scalable and standardized framework for trend analysis and test result archival, enabling real-time performance insights and improved decision-making.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - The tool became an integral part of the testing lifecycle, significantly enhancing operational efficiency and data reliability for global performance engineering teams.
 
   # Education
   education:
@@ -251,64 +358,105 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Technology (Software Engineering)"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+          name: "Birla Institute of Technology & Science, Pilani (Rajasthan, India)."
+          # url: "https://example.org"
+        date: "2012 - 2015"
+        # GPA: "5.6 out of 10.0"
+        # content: |-
+        #   Extracurricular Activities
+        #     - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Computer Applications"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          name: "Gayatri Institute of Science & Technology, Berhampur (Odisha, India)."
+          # url: "https://example.org"
+        date: "2009 - 2011"
+        # GPA: "3.9 out of 5.0"
+        # content: |-
+        #   I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+        #   - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+        #   - Face mask detection using a single convolutional neural network.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+        #   Extracurricular Activities
+        #     - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "De Paul School, Berhampur (Odisha, India)."
+          # url: "https://example.org"
+        date: "2009 - 2008"
+        # GPA: "4.2 out of 5.0"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
 
   # Achievements
   achievements:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      # - title: Google kickstart runner
+      #   content: I solved all problems with optimal solution.
+      #   url: https://example.com
+      #   image: /images/achievement.jpg
+      - title: "Patent – System and Method for Monitoring Performance of Applications for an Entity"
+        content: >
+          Granted by the Indian Patent Office, this innovation introduced a thin-client reporting tool that significantly reduced manual performance reporting time from 8000 to 2000 hours annually—saving thousands of engineering hours. Built using ASP.NET, SQL Server, ADO.NET, and JavaScript, the system automated HTML report extraction and visualization for performance test results. It enabled near real-time report generation with key reports produced in under 2 minutes.
+          Patent Number: 3327/CHE/2015 (India), KNS.BFSI.0353IN1 (US)
+          Filing Date: 30th June 2015
+        url: "https://patents.google.com/patent/IN3327CHE2015A/en"
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Google_Patents_logo.png"
+
+      - title: "Microsoft Azure Certified – AZ-900"
+        content: >
+          Earned the Microsoft Azure Fundamentals (AZ-900) certification, demonstrating foundational knowledge of cloud concepts, Azure services, and governance principles.
+        image: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+
+      - title: "Winner – iLab Code Games 2018"
+        content: >
+          Secured 1st place in Wolters Kluwer’s internal coding competition, showcasing creativity, problem-solving, and full-stack development expertise.
+        image: "https://cdn.wolterskluwer.io/wk/fundamentals/1.15.2/logo/assets/medium.svg"
+
+      - title: "Best Newcomer Award"
+        content: |
+          Recognized by Cognizant Infrastructure Services – PACE Practice for outstanding contributions and quick ramp-up in a high-performance environment.
+        image: "https://www.cognizant.com/us/media_1808da395be9f77c0124de824530b0338915414a8.svg"
+
+      - title: "Best Practice Initiator Award"
+        content: >
+          Honored by the Global Reporting Team for driving process innovation and initiating best practices that improved team efficiency.
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/377px-Wipro_Primary_Logo_Color_RGB.svg.png?20220321185443"
+
+      - title: "Best Presentation – PASE Day"
+        content: >
+          Received appreciation for delivering an exceptional technical presentation at the practice level during PASE Day.
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/377px-Wipro_Primary_Logo_Color_RGB.svg.png?20220321185443"
+
+      - title: "Outstanding Contribution to Success"
+        content: >
+          Awarded for demonstrating exceptional ownership, innovation, and consistent delivery beyond expectations.
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/377px-Wipro_Primary_Logo_Color_RGB.svg.png?20220321185443"
+
+      - title: "Feathers in My Cap Award"
+        content: >
+          Acknowledged for delivering innovative solutions and spearheading the development of the Global Performance Reporting Tool.
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/377px-Wipro_Primary_Logo_Color_RGB.svg.png?20220321185443"
+
+      - title: "Star of the Quarter – NLI"
+        content: >
+          Team-based recognition for delivering exceptional results and collaboration during critical project milestones.
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/377px-Wipro_Primary_Logo_Color_RGB.svg.png?20220321185443"
+
+      - title: "Thanks, A Zillion – Client Appreciation"
+        content: >
+          Received direct client recognition from Citi US for exemplary support and value-added contributions to the engagement.
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/377px-Wipro_Primary_Logo_Color_RGB.svg.png?20220321185443"
 
   # projects
   projects:
@@ -333,32 +481,32 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+      # - title: Image Converter
+      #   content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      #   image: /images/projects/converter.jpg
+      #   featured:
+      #     name: Demo
+      #     link: https://django-converter.herokuapp.com
+      #   badges:
+      #     - "Django"
+      #     - "Bootstrap"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+      # - title: Hugo Profile V2
+      #   content: A clean and simple Hugo template for personal portfolio and blog.
+      #   image: /images/projects/profile2.jpg
+      #   featured:
+      #     name: Demo V2
+      #     link: https://hugo-profile-2.netlify.app
+      #   badges:
+      #     - "Hugo"
+      #     - "Bootstrap"
+      #     - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
@@ -366,7 +514,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:amitsingh007s@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -382,11 +530,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/amit-singh-7
+      linkedin: https://www.linkedin.com/in/amitsingh007s/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
