@@ -85,7 +85,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -362,17 +362,17 @@ params:
         school:
           name: "Birla Institute of Technology & Science, Pilani (Rajasthan, India)."
           # url: "https://example.org"
-        date: "2012 - 2015"
+        date: "2015"
         # GPA: "5.6 out of 10.0"
         # content: |-
         #   Extracurricular Activities
         #     - Lorem ipsum dolor sit amet consectetur adipisicing elit.
         #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Computer Applications"
-        school:
-          name: "Gayatri Institute of Science & Technology, Berhampur (Odisha, India)."
-          # url: "https://example.org"
-        date: "2009 - 2011"
+      # - title: "Bachelor of Computer Applications"
+      #   school:
+      #     name: "Gayatri Institute of Science & Technology, Berhampur (Odisha, India)."
+      #     # url: "https://example.org"
+      #   date: "2009 - 2011"
         # GPA: "3.9 out of 5.0"
         # content: |-
         #   I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
@@ -386,11 +386,11 @@ params:
         #   enable: true
         #   name: "My academic record"
         #   url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "De Paul School, Berhampur (Odisha, India)."
-          # url: "https://example.org"
-        date: "2009 - 2008"
+      # - title: "High School"
+      #   school:
+      #     name: "De Paul School, Berhampur (Odisha, India)."
+      #     # url: "https://example.org"
+      #   date: "2009 - 2008"
         # GPA: "4.2 out of 5.0"
         # featuredLink:
         #   enable: true
